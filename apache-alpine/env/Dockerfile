@@ -1,8 +1,8 @@
 FROM nginx:1.9
 
-MAINTAINER Nick Jones <nick@nicksays.co.uk>
+MAINTAINER Tu Nguyen <ladiesman9x@gmail.com>
 
-ADD etc/vhost.conf /etc/nginx/conf.d/default.conf
+#ADD etc/vhost.conf /etc/nginx/conf.d/default.conf
 ADD bin/* /usr/local/bin/
 
 ENV FPM_HOST fpm
